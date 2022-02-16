@@ -82,13 +82,12 @@ main {
 
 .card-icon {
     float: right;
-    margin: 0 20px 0 0;
-    margin-top: 75px;
+    margin: 25px 20px 0 0;
 }
 
-.circle-left {
-    margin-right: -15px;
-    opacity: 0.7;
+.qrcode {
+    height: 95px;
+    width: 95px;
 }
 
 .startpagetitle {
