@@ -168,3 +168,8 @@ main {
 .startpage-small {
     padding-top: 10%;
 }
+
+.col-small {
+    padding-left: 0px;
+    padding-right: 0px;
+}
