@@ -51,21 +51,21 @@ main {
 
 .card-small {
     background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(4px);
-    height: 155px;
-    width: 250px;
+    backdrop-filter: blur(6px);
+    height: 220px;
+    width: 375px;
     background-image: linear-gradient(30deg, rgba(250, 44, 97, 0.6), rgba(1, 68, 148, 0.7));
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
-    margin: 40% 10px 10px 10px;
-    font-size: 8px;
-    box-shadow: 3px 3px 10px #000000;
+    margin: 40% 15px 15px 15px;
+    font-size: 12px;
+    box-shadow: 5px 5px 15px #000000;
 }
 
 .top-block-small {
     display: inline-block;
-    width: 250px;
-    height: 65px;
+    width: 375px;
+    height: 87px;
 }
 
 .top-block {
@@ -76,9 +76,9 @@ main {
 
 .card-name-small {
     float: right;
-    margin: 10px;
+    margin: 15px;
     position: relative;
-    font-size: 14px;
+    font-size: 21px;
     font-weight: 550;
 }
 
@@ -98,8 +98,8 @@ main {
 
 
 .card-number-small {
-    font-size: 14px;
-    margin: -7px 0 0 0;
+    font-size: 21px;
+    margin: -11px 0 0 0;
     text-align-last: center;
 }
 
@@ -111,15 +111,15 @@ main {
 
 .card-balance-small {
     font-weight: 700;
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 22px;
+    margin-top: 7px;
 }
 
 
 .bottom-block-small {
     display: inline-block;
-    width: 250px;
-    height: 40px;
+    width: 375px;
+    height: 60px;
 }
 
 .bottom-block {
@@ -130,9 +130,9 @@ main {
 
 .balance-small {
     float: left;
-    margin: 10px;
+    margin: 15px;
     position: relative;
-    top: 8px;
+    top: 26px;
 }
 
 .balance {
@@ -143,24 +143,28 @@ main {
 }
 
 .fa-small {
-    padding: 5px;
-    font-size: 30px;
-    width: 12px;
+    padding: 7px;
+    font-size: 45px;
+    width: 18px;
     text-align: center;
     color: white;
 }
 
 .card-icon-small {
     float: right;
-    margin: 0 10px 0 0;
+    margin: 5px 15px 0 0;
 }
 
 .qrcode-small {
-    height: 50px;
-    width: 50px;
+    height: 75px;
+    width: 75px;
 }
 
 .qrcode {
     height: 100px;
     width: 100px;
+}
+
+.startpage-small {
+    padding-top: 10%;
 }
