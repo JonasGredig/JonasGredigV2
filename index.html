@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
           integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
@@ -53,7 +55,8 @@
                                 <span class='card-name'>Jonas Gredig</span>
                             </div>
                             <div class='card-number'>
-                                <p>Application Developer EFZ</p>
+                                <p>Application Developer <a class="btn btn-outline-light btn-sm" data-toggle="modal"
+                                                            data-target="#EFZModal">E F Z</a></p>
                             </div>
                             <div class='bottom-block'>
                                 <div class='balance'>
@@ -95,7 +98,10 @@
                                 <span class='card-name-small'>Jonas Gredig</span>
                             </div>
                             <div class='card-number-small'>
-                                <p>Application Developer EFZ</p>
+                                <p>Application Developer <a target="_blank" class="btn btn-outline-light btn-sm"
+                                                            data-toggle="modal" data-target="#EFZModal"
+                                                            href="https://de.wikipedia.org/wiki/Eidgen%C3%B6ssisches_F%C3%A4higkeitszeugnis">E
+                                    F Z</a></p>
                             </div>
                             <div class='bottom-block-small'>
                                 <div class='balance-small'>
@@ -127,6 +133,66 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="EFZModal" tabindex="-1" role="dialog" aria-labelledby="EFZModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="EFZModalLabel">What is a "EFZ"?</h5>
+                        <button type="btn-outline-danger" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>References to the Swiss Federal Certificate of Competence (Eidgenössisches
+                            Fähigkeitszeugnis)</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a target="_blank"
+                           href="https://de.wikipedia.org/wiki/Eidgen%C3%B6ssisches_F%C3%A4higkeitszeugnis">
+                            <button type="button" class="btn btn-info btn-sm">Wikipedia</button>
+                        </a>
+                        <a target="_blank" href="https://www.becc.admin.ch/becc/public/bvz/beruf/show/88611">
+                            <button type="button" class="btn btn-info btn-sm">Swiss Government</button>
+                        </a>
+                        <a target="_blank"
+                           href="https://ch.usembassy.gov/education-culture/educationusa/undergraduate-study/qualifications/">
+                            <button type="button" class="btn btn-info btn-sm">U.S. Embassy</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="CreditsModal" tabindex="-1" role="dialog" aria-labelledby="EFZModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="CreditsModalLabel">Credits</h5>
+                        <button type="btn-outline-danger" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This Website was made with <3 in Grisons, Switzerland </p>
+                        <p>Technologies & Templates:</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a target="_blank" class="btn btn-danger"
+                           href="https://ezgif.com/video-to-gif">
+                            Video to Gif Converter</a>
+                        <a target="_blank" class="btn btn-primary" href="https://getbootstrap.com/">Bootstrap 4 CSS
+                            Framework</a>
+                        <a target="_blank" class="btn btn-success"
+                           href="https://universal-tilt-js.github.io/universal-tilt.js/">Universal Tilt</a>
+                        <a target="_blank" class="btn btn-warning"
+                           href="https://hashnode.com/post/making-credit-card-using-html-and-css-ckj5g06m207n6ozs12wrn7mvv">HTML
+                            Credit Card Template</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 <footer class="mt-auto">
@@ -137,6 +203,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="mailto:jongredig±website@gmail.com">jongredig@gmail.com </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#" data-toggle="modal" data-target="#CreditsModal">Credits</a>
             </li>
         </ul>
     </div>
